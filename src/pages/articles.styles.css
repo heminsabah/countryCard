@@ -1,0 +1,9 @@
+.cards {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "content content sidebar";
+    grid-auto-rows: repeat(2, 400px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+  }

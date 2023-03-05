@@ -1,0 +1,19 @@
+.card {
+    border: 2px #b8b7b7 solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card figure img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
